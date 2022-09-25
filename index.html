@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Anime</title>
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <meta charset="UTF-8">
+<meta http-equiv"X-UA-Compatible" contents="IE=edge">
+</head>
+
+<body id="bod" class="body" style="background-color:#95ccff">
+    
+<p style="text-align:center;"> Hey, do you like anime?</p>
+<div class="container">
+<!-- button that take effects and make buttons appear by changing css properties -->
+<button class="red" onClick="clicc(); clickAlert(); changeLuffy(); changeGojo(); changeNaruto(); changeAnya(); changeChika(); removeYes(); removeNo();" id="hi">Yes( ͡° ͜ʖ ͡°)</button>
+<button onclick="changeHorror(); removeYes(); removeNo(); clickAlert2();" class="monster" id="horror">((((:no:))))</button>
+</div>
+</body>
+<!-- orginal and to be changed property of css -->
+<style>
+    .red{
+background-color:blue;
+color:red;
+text-align:center;
+}
+.container{
+text-align:center;
+}
+
+.body{
+font-family: Georgia;
+font-size:100%;
+color:blue
+}
+</style>
+<!--  css that changes body-->
+<style>
+.body2{
+background-image:url("https://c.tenor.com/MWpSpZnhk2sAAAAM/eat-anime.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodyluffy{
+background-image:url("https://giffiles.alphacoders.com/215/215917.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodygojo{
+background-image:url("https://64.media.tumblr.com/a35f1eb85b0497506123c136a25dfadc/09b505702d03c492-a6/s540x810/f65b383c0f1f0e9463a2ad0b1440c45e7237c22a.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodynaruto{
+background-image:url("https://c.tenor.com/T3fJx1v4gZQAAAAC/naruto-uzumaki-naruto.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodyanya{
+background-image:url("https://c.tenor.com/NCcZtOG6FjoAAAAM/spy-family-spy-x-family.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodychika{
+background-image:url("https://i.pinimg.com/originals/d6/de/32/d6de32f9407eef11c3028d06b424083a.gif");
+background-repeat:repeat;
+  background-size: 400px; solid;
+  background-attachment: fixed;
+  color: transparent;
+}
+.bodyhorror{
+background-image:url("https://i.pinimg.com/originals/d0/b6/80/d0b680387a0ded523cfc4e1fd220f3f2.gif");
+background-size=400px; solid;
+background-attachment: fixed;
+color: transparent;
+}
+ .luffy{
+background-color:blue;
+color:red;
+border-color:
+color:
+}
+  .gojo{
+background-color:blue;
+color:red;
+border-color:
+color:
+}
+  .naruto{
+background-color: blue;
+color:red;
+bottom:10%;
+border-color:
+color:
+}
+  .anya{
+background-color:blue;
+color:red;
+border-color:
+color:
+}
+  .chika{
+background-color:blue;
+color:red;
+border-color:
+color:
+}
+ .monster{
+background-color:blue;
+color:red; 
+}
+
+  .luffy2{
+background-color:transparent;
+color: transparent;
+border-color:transparent;
+}
+  .gojo2{
+background-color: transparent;
+color: transparent;
+border-color: transparent;
+}
+  .naruto2{
+background-color: transparent;
+color: transparent;
+border-color: transparent;
+}
+  .anya2{
+background-color: transparent;
+color: transparent;
+border-color: transparent;
+}
+  .chika2{
+background-color: transparent;
+color: transparent;
+border-color: transparent;
+} 
+ .yes{
+ background-color:transparent;
+ color:transparent;
+ border-color:transparent;
+}
+ .no{
+background-color: transparent;
+color: transparent;
+border-color: transparent;
+}
+</style>
+   <!-- script for changing body background by clicking button -->
+    <script>
+function clicc()
+{ document.getElementById("bod").className="body2";
+}
+function bodyLuffy()
+{ document.getElementById("bod").className="bodyluffy";
+}
+function bodyGojo()
+{ document.getElementById("bod").className="bodygojo";
+}
+function bodyNaruto()
+{ document.getElementById("bod").className="bodynaruto";
+}
+function bodyAnya()
+{ document.getElementById("bod").className="bodyanya";
+}
+function bodyChika(){
+document.getElementById("bod").className="bodychika";
+}
+function changeHorror(){
+document.getElementById("bod").className="bodyhorror";
+}
+</script>
+<!-- functions for button to he click and alert and change css property of buttons -->
+<script>
+function clickAlert() {
+   alert("Welcome to Anime World!");
+}
+function clickAlert2() {
+   alert("oh? you don't like anime? so b sk8rd!");
+}
+
+function changeLuffy()
+{ document.getElementById("monkey").className="luffy";
+
+}
+function changeGojo()
+{ document.getElementById("saturo").className="gojo";
+}
+
+function changeNaruto()
+{ document.getElementById("uzumaki").className="naruto";
+}
+
+function changeAnya()
+{ document.getElementById("forger").className="anya";
+}
+
+function changeChika()
+{ document.getElementById("chick").className="chika";
+}
+
+function removeYes()
+{ document.getElementById("hi").className="yes";
+}
+
+function removeNo(){ document.getElementById("horror").className="no";
+}
+</script>
+<!-- buttons for anime characters -->
+<button class="luffy2" id="monkey" onclick=" bodyLuffy()">Luffy</button>
+<br>
+<button class="gojo2" id="saturo" onclick="bodyGojo()">gojo</button>
+<br>
+<button class="naruto2" id="uzumaki" onclick="bodyNaruto()">naruto</button>
+<br>
+<button class="anya2" id="forger" onclick="bodyAnya()">anya</button>
+<br>
+<button class="chika2" id="chick" onclick="bodyChika()">chika</button>
+
+<div class="container2">
+    <p>
+        Made by Ralph
+    </p>
+    <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/299897620_1739348709767243_479436263939520644_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=101&ccb=1-7&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=FF84PCFYGNMAX_QuHla&_nc_ht=scontent.fmnl25-3.fna&oh=00_AT-JKwVmbzRYLFMe8u6rEK77UpVyrhVk_ccf_oy9ZOA8uw&oe=6332B91A" alt="" width="20%" height="20%">
+</div>
+
+<style>
+    .container2{
+color:red;
+font-family: Georgia;
+font-size:100%;
+text-align:center;
+bottom:1%;
+z-index:10;
+position: absolute;
+float:center;
+}
+</style>
+</html>
